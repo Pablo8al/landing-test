@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Encuesta </title>
+    <!-- css file link-->
+    <link rel="stylesheet" href="form.css">
+</head>
+<!-- Cuerpo -->
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <header class="header">
+            <h1 id="title">
+                Encuesta percepción de riesgo
+            </h1>
+            <p id="description">
+                Realizada por el 
+                Instituto de Geografía UNAM,
+            </p>
+            <p id="description">
+                Todos los derechos reservados.
+            </p>
+        </header>
+        <!-- ID Encuesta -->
+        <form action="" id="survey">
+            <div class="form-group">
+                <label for="IDencuesta">
+                    ID Encuesta
+                </label>
+                <input type="text"
+                name="IDencuesta" id="IDencuesta"
+                class="formControl"
+                placeholder="Relleno automático"
+                required>
+            </div>
+        <!-- ID Foto -->
+        <form action="" id="survey">
+            <div class="form-group">
+                <label for="IDfoto">
+                    ID Foto
+                </label>
+                <input type="text"
+                name="IDfoto" id="IDfoto"
+                class="formControl"
+                placeholder="Relleno automático"
+                required>
+            </div>
+            <!--Latitud -->
+            <div class="form-group">
+                <label for="latitud">Latitud</label>
+                <input type="text"
+                name="IDencuesta" id="name"
+                class="formControl"
+                placeholder="Relleno automático"
+                required>
+            </div>
+            <!--Longitud -->
+            <div class="form-group">
+                <label for="latitud">Longitud</label>
+                <input type="text"
+                name="IDencuesta" id="name"
+                class="formControl"
+                placeholder="Relleno automático"
+                required>
+            </div>
+            <!--Longitud -->
+            <div class="form-group">
+                <label for="latitud">Altitud</label>
+                <input type="text"
+                name="" id="name"
+                class="formControl"
+                placeholder="Relleno automático"
+                required>
+            </div>
+            <!-- Sección de texto -->
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text"
+                name="nombre" id="name"
+                class="formControl"
+                placeholder="Ingresa tu nombre"
+                required>
+            </div>
+            <!-- Sección de correo -->
+            <div class="form-group">
+                <label for="email">Correo</label>
+                <input type="email"
+                name="email" id="email"
+                class="formControl"
+                placeholder="Ingresa tu correo"
+                required>
+            </div>
+            <!-- Sección de Número -->
+            <div class="form-group">
+                <label for="numero">Número</label>
+                <input type="number"
+                name="numero" id="numero"
+                class="formControl"
+                placeholder="Ingresa 10 dígitos"
+                required>
+            </div>
+
+            <!-- Lista de opciones -->
+            <div class="form-group">
+                <p id="quest">
+                    ¿Qué opción describe mejor 
+                    tu estado civil?
+                </p>
+                <select name="edocivil" 
+                id="dropdown"
+                class="formControl" required>
+                    <option value="" disabled selected>
+                        Selecciona una opción
+                    </option>
+                        <option value="Soltero(a)">
+                            Soltero(a)
+                    </option>
+                    </option>
+                        <option value="Casado(a)"> 
+                            Casado(a)
+                    </option>
+                    </option>
+                        <option value="Divorciado(a)"> 
+                            Divorciado(a)
+                    </option>
+                </select>
+            <!-- Radio button selection -->
+            <div class="form-group">
+                <p id= "quest"> ¿Eres habitante de la 
+                    delegación Álvaro obregrón?
+                </p>
+                <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="Sí"
+                    class="inputRadio"
+                    checked>Sí
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="No"
+                    class="inputRadio">No
+                </label>
+            </div>
+            <div class="form-group">
+                <p id= "quest"> ¿Qué tanto sabes acerca del 
+                    Instituto de Geografía?
+                </p>
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer"
+                    value="mucho"
+                    class="inputRadio"
+                    >Mucho
+                </label>
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer"
+                    value="poco"
+                    class="inputRadio"
+                    >Poco
+                </label>
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer"
+                    value="nada"
+                    class="inputRadio"
+                    checked>Nada
+                </label>
+            </div>
+            </div>
+            <!--Area de texto-->
+            <div class="form-group">
+                <p id="quest"> 
+                    ¿Tienes algún comentario?
+                </p> 
+                <textarea name="feedback"
+                id ="feedback" cols="30"
+                rows="5" class="textarea"
+                placeholder="Ingresa tus comentarios..."
+                ></textarea>
+            </div>
+            <!--Botón terminar encuesta-->
+            <div class="form-group">
+                <button type="submit"
+                id="submit"
+                class="btn">
+                    Terminar encuesta
+                </button>
+            </div>
+
+        </form>
+</body>
+<!-- Cuerpo -->
+</html>
