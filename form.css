@@ -23,7 +23,7 @@ body::before{
     content: '';
     position: fixed;
     top: 166px;;
-    left: 180px;
+    left: 178px;
     height: 25%;
     width: 25%;
     z-index: -1;
