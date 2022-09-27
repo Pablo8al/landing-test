@@ -22,8 +22,8 @@ body{
 body::before{
     content: '';
     position: fixed;
-    top: 120px;;
-    left: 233px;
+    top: 117px;;
+    left: 234px;
     height: 20%;
     width: 20%;
     z-index: -1;
